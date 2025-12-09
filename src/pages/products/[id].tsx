@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { useCart } from '../components/context/CartContext'
+import { useCart } from '../../context/CartContext'
 
 interface Product {
   id: number

@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Script from "next/script";
-import { CartProvider } from "./components/context/CartContext";
+import { CartProvider } from "../context/CartContext";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
