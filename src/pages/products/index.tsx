@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
-import ProductCard from '../components/productCard/ProductCard'
+import ProductCard from '../../productCard/ProductCard'
 import ProductSkeleton from '../components/skeleton/ProductSkeleton'   
 
 export default function Products() {
